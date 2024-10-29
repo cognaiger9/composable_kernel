@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(Test)
+add_executable(test test.cpp)
+add_executable(ck ck.cpp)
+add_executable(fp16 test_fp16.cpp)
+#target_link_libraries(test PRIVATE device_other_operations device_gemm_operations)
